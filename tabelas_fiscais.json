@@ -11,10 +11,10 @@
   },
   "inss": {
     "2026": [
-      {"faixa": 1, "min": 0, "max": 1645.00, "aliquota": 0.075},
-      {"faixa": 2, "min": 1645.01, "max": 3027.88, "aliquota": 0.09},
-      {"faixa": 3, "min": 3027.89, "max": 4542.83, "aliquota": 0.12},
-      {"faixa": 4, "min": 4542.84, "max": 8847.41, "aliquota": 0.14}
+      {"faixa": 1, "min": 0, "max": 1621.00, "aliquota": 0.075},
+      {"faixa": 2, "min": 1621.01, "max": 2919.72, "aliquota": 0.09},
+      {"faixa": 3, "min": 2919.73, "max": 4379.49, "aliquota": 0.12},
+      {"faixa": 4, "min": 4379.50, "max": 8547.00, "aliquota": 0.14}
     ]
   },
   "irrf": {
@@ -28,7 +28,7 @@
   },
   "parametros": {
     "fgts": 0.08,
-    "salario_minimo": 1645.00,
-    "deducao_dependente": 189.59
+    "salario_minimo": 1621.00,
+    "deducao_dependente": 197.35
   }
 }
