@@ -1,0 +1,34 @@
+{
+  "versao": "2026.2",
+  "data_publicacao": "2026-03-17",
+  "rat": {
+    "01": {"descricao": "Agricultura", "rat": 3, "risco": "Grave"},
+    "02": {"descricao": "Produção florestal", "rat": 3, "risco": "Grave"},
+    "43": {"descricao": "Serviços especializados para construção", "rat": 3, "risco": "Grave"},
+    "47": {"descricao": "Comércio varejista", "rat": 1, "risco": "Leve"},
+    "45": {"descricao": "Comércio de veículos", "rat": 1, "risco": "Leve"},
+    "41": {"descricao": "Construção de edifícios", "rat": 2, "risco": "Médio"}
+  },
+  "inss": {
+    "2026": [
+      {"faixa": 1, "min": 0, "max": 1645.00, "aliquota": 0.075},
+      {"faixa": 2, "min": 1645.01, "max": 3027.88, "aliquota": 0.09},
+      {"faixa": 3, "min": 3027.89, "max": 4542.83, "aliquota": 0.12},
+      {"faixa": 4, "min": 4542.84, "max": 8847.41, "aliquota": 0.14}
+    ]
+  },
+  "irrf": {
+    "2026": [
+      {"faixa": 1, "min": 0, "max": 2631.35, "aliquota": 0, "deducao": 0},
+      {"faixa": 2, "min": 2631.36, "max": 3294.92, "aliquota": 0.075, "deducao": 197.35},
+      {"faixa": 3, "min": 3294.93, "max": 4373.65, "aliquota": 0.15, "deducao": 444.53},
+      {"faixa": 4, "min": 4373.66, "max": 5439.45, "aliquota": 0.225, "deducao": 772.66},
+      {"faixa": 5, "min": 5439.46, "max": 999999.99, "aliquota": 0.275, "deducao": 1044.45}
+    ]
+  },
+  "parametros": {
+    "fgts": 0.08,
+    "salario_minimo": 1645.00,
+    "deducao_dependente": 189.59
+  }
+}
