@@ -1,6 +1,6 @@
 {
-  "versao": "2026.2",
-  "data_publicacao": "2026-03-17",
+  "versao": "2026.3",
+  "data_publicacao": "2026-04-02",
   "rat": {
     "01": {"descricao": "Agricultura", "rat": 3, "risco": "Grave"},
     "02": {"descricao": "Produção florestal", "rat": 3, "risco": "Grave"},
@@ -23,12 +23,14 @@
       {"faixa": 2, "min": 2631.36, "max": 3294.92, "aliquota": 0.075, "deducao": 197.35},
       {"faixa": 3, "min": 3294.93, "max": 4373.65, "aliquota": 0.15, "deducao": 444.53},
       {"faixa": 4, "min": 4373.66, "max": 5439.45, "aliquota": 0.225, "deducao": 772.66},
-      {"faixa": 5, "min": 5439.46, "max": 999999.99, "aliquota": 0.275, "deducao": 1044.45}
+      {"faixa": 5, "min": 5439.46, "max": null, "aliquota": 0.275, "deducao": 1044.45}
     ]
   },
   "parametros": {
     "fgts": 0.08,
     "salario_minimo": 1621.00,
-    "deducao_dependente": 197.35
+    "deducao_dependente": 197.35,
+    "teto_inss": 8547.00,
+    "observacoes": "Valores de 2026 podem sofrer ajustes oficiais"
   }
 }
